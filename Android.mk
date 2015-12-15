@@ -34,4 +34,7 @@ LOCAL_AAPT_FLAGS += --extra-packages com.google.android.gms
 
 LOCAL_STATIC_JAVA_LIBRARIES := play
 
+# Enable dexpreopt to speed boot time
+WITH_DEXPREOPT := true
+
 include $(BUILD_PACKAGE)
